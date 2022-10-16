@@ -1,0 +1,9 @@
+sudo dnf install httpd -y
+sudo systemctl start httpd.service
+cd /var/www/html
+sudo nano index.html
+Hello World, my name is Abdullah. My favorite cloud provider is AWS and my 
+machine's name is fedora.
+^o
+^x
+
